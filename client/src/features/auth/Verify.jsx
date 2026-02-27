@@ -10,7 +10,7 @@ const Verify = () => {
     useEffect(()=>{
         const verifyEmail = async()=>{
             try {
-                const res = await axios.post(`https://lms-my-project-eak1.onrender.com/user/verify`, {},{
+                const res = await axios.post(`https://projectbackend-theta.vercel.app`, {},{
                     headers:{
                         Authorization: `Bearer ${token}`
                     }
