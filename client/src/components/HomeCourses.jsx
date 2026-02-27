@@ -5,7 +5,7 @@ import { Star, User, ArrowRight } from "lucide-react";
 import { toast, ToastContainer, Slide } from "react-toastify";
 import { TOKEN_KEY } from "@/constants/auth";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://online-course-n9hd.onrender.com";
 
 const HomeCourses = () => {
   const navigate = useNavigate();
