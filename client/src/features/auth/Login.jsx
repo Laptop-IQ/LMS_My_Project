@@ -35,7 +35,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        "https://lms-my-project-eak1.onrender.com/user/login",
+        "https://projectbackend-theta.vercel.app/user/login",
         formData,
       );
 
