@@ -44,7 +44,7 @@ const VerifyOTP = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `https://lms-my-project-eak1.onrender.com/user/verify-otp/${email}`,
+        `https://projectbackend-theta.vercel.app/user/verify-otp/${email}`,
         {
           otp: finalOtp,
         },
