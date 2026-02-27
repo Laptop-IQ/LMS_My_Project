@@ -5,7 +5,7 @@ import { Star, User, ArrowRight } from "lucide-react";
 import { toast, ToastContainer, Slide } from "react-toastify";
 import { TOKEN_KEY } from "@/constants/auth";
 
-const API_BASE = "https://lms-my-project-eak1.onrender.com";
+const API_BASE = "https://projectbackend-theta.vercel.app";
 
 const HomeCourses = () => {
   const navigate = useNavigate();
