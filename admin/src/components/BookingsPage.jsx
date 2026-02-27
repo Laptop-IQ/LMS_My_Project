@@ -8,7 +8,7 @@ import {
   GraduationCap,
 } from "lucide-react";
 
-const API_BASE = "https://online-course-n9hd.onrender.com";
+const API_BASE = "https://lms-my-project-eak1.onrender.com";
 
 const BookingsPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
