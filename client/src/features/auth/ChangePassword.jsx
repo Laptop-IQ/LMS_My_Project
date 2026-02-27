@@ -31,7 +31,7 @@ const ChangePassword = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `http://localhost:8000/user/change-password/${email}`,
+        `https://lms-my-project-eak1.onrender.com/user/change-password/${email}`,
         {
           newPassword,
           confirmPassword,
