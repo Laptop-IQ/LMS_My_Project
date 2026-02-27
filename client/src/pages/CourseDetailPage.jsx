@@ -20,7 +20,7 @@ import { TOKEN_KEY } from "@/constants/auth";
 import axiosInstance from "../utils/axiosInstance";
 
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://lms-my-project-eak1.onrender.com";
 
 const fmtMinutes = (mins) => {
   const h = Math.floor((mins || 0) / 60);
