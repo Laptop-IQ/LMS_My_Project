@@ -35,7 +35,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/user/login",
+        "https://lms-my-project-eak1.onrender.com/user/login",
         formData,
       );
 
