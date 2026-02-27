@@ -25,7 +25,7 @@ import {
 import { TOKEN_KEY } from "@/constants/auth";
 
 
-const API_BASE = "https://projectfrontend-wheat.vercel.app";
+const API_BASE = "https://projectbackend-theta.vercel.app";
 
 const fmtMinutes = (mins) => {
   const h = Math.floor((mins || 0) / 60);
