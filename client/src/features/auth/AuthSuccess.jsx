@@ -24,7 +24,7 @@ const AuthSuccess = () => {
       localStorage.setItem(TOKEN_KEY, accessToken);
 
       try {
-        const res = await axios.get("https://lms-my-project-eak1.onrender.com/auth/me", {
+        const res = await axios.get("https://projectbackend-theta.vercel.app/auth/me", {
           headers: {
             Authorization: `Bearer ${accessToken}`,
           },
