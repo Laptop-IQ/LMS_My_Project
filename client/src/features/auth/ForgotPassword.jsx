@@ -16,7 +16,7 @@ const ForgotPassword = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `http://localhost:8000/user/forgot-password`,
+        `https://lms-my-project-eak1.onrender.com/user/forgot-password`,
         { email },
       );
       if (res.data.success) {
