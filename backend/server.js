@@ -24,7 +24,7 @@ app.use("/uploads", express.static("uploads"));
 
 app.use(
   cors({
-    origin: ["https://lms-client-1q2c.onrender.com/", "http://localhost:5174"],
+    origin: ["https://lms-client-1q2c.onrender.com/", "https://lms-my-project.onrender.com/"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
   }),
