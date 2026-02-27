@@ -26,7 +26,7 @@ const Signup = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        "https://lms-my-project-eak1.onrender.com/user/register",
+        "https://projectbackend-theta.vercel.app/user/register",
         formData,
         {
           headers: { "Content-Type": "application/json" },
