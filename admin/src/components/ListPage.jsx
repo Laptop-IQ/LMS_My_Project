@@ -20,7 +20,7 @@ const ListPage = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = "https://online-course-n9hd.onrender.com";
+  const API_BASE = "https://lms-my-project-eak1.onrender.com";
 
   const getImageUrl = (imagePath) => {
     if (!imagePath) return "";
