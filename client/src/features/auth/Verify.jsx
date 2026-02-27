@@ -10,7 +10,7 @@ const Verify = () => {
     useEffect(()=>{
         const verifyEmail = async()=>{
             try {
-                const res = await axios.post(`http://localhost:8000/user/verify`, {},{
+                const res = await axios.post(`https://lms-my-project-eak1.onrender.com/user/verify`, {},{
                     headers:{
                         Authorization: `Bearer ${token}`
                     }
