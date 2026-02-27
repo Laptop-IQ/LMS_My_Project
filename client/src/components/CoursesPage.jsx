@@ -9,7 +9,7 @@ import {
 } from "../assets/dummyStyles";
 import { TOKEN_KEY } from "@/constants/auth";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://online-course-n9hd.onrender.com";
 
 
 const StarIcon = ({ filled = false, half = false, className = "" }) => {
