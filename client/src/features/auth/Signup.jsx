@@ -26,7 +26,7 @@ const Signup = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        "http://localhost:8000/user/register",
+        "https://lms-my-project-eak1.onrender.com/user/register",
         formData,
         {
           headers: { "Content-Type": "application/json" },
