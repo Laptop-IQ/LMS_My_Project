@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast, Toaster } from "react-hot-toast";
 import { BadgeIndianRupee, BookOpenText, ChevronDown, ChevronUp, Clock, ImageIcon, ListOrdered, PenLine, Plus, Star, Upload, UserPen, Video, X } from "lucide-react";
 
-const API_BASE = "https://lms-my-project-eak1.onrender.com";
+const API_BASE = "https://projectbackend-theta.vercel.app";
 
 // formatDuration accepts either {hours, minutes} or (hours, minutes)
 const formatDuration = (a, b) => {
