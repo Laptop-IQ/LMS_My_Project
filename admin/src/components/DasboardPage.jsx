@@ -9,7 +9,7 @@ import {
   Search,
 } from "lucide-react";
 
-const API_BASE = "https://online-course-n9hd.onrender.com";
+const API_BASE = "https://lms-my-project-eak1.onrender.com";
 const fmtCurrency = (n) => {
   if (n == null) return "₹0";
   const num = Number(n);
