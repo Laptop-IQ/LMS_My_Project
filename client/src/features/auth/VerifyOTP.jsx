@@ -44,7 +44,7 @@ const VerifyOTP = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `http://localhost:8000/user/verify-otp/${email}`,
+        `https://lms-my-project-eak1.onrender.com/user/verify-otp/${email}`,
         {
           otp: finalOtp,
         },
