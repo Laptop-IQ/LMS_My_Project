@@ -16,7 +16,7 @@ const ForgotPassword = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `https://lms-my-project-eak1.onrender.com/user/forgot-password`,
+        `https://projectbackend-theta.vercel.app/user/forgot-password`,
         { email },
       );
       if (res.data.success) {
