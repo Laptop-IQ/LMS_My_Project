@@ -7,7 +7,7 @@ import { Star, User, Play, } from "lucide-react";
 
 
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://online-course-n9hd.onrender.com";
 
 const MyCoursesPage = () => {
   const navigate = useNavigate();
