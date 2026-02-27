@@ -31,7 +31,7 @@ const ChangePassword = () => {
     try {
       setIsLoading(true);
       const res = await axios.post(
-        `https://lms-my-project-eak1.onrender.com/user/change-password/${email}`,
+        `https://projectbackend-theta.vercel.app/user/change-password/${email}`,
         {
           newPassword,
           confirmPassword,
