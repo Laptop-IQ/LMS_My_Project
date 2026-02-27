@@ -3,7 +3,7 @@ import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 import { TOKEN_KEY } from "@/constants/auth";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://lms-my-project-eak1.onrender.com";
 
 
 const VerifyPaymentPage = () => {
